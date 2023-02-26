@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="shortcut icon" href="img/flower.png">
+  <title>포트폴리오</title>
+
+  <!-- Global stylesheets -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    .col-md-3:hover .skillDes {
+      opacity: 1;
+    }
+
+    .skillDes {
+      /* 코딩 스킬 아래 설명 */
+      vertical-align: middle;
+      text-align: center;
+      padding: 0px 20px 20px 20px;
+      background-color: #444444;
+      border-radius: 5px;
+      color: #ffffff;
+      position: absolute;
+      top: 110%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: max-content;
+      opacity: 0;
+      transition: all ease 0.3s;
+      z-index: 1;
+
+    }
+  </style>
+
+  <script>
+    function VideoReset(name) {
+      name.pause();
+      name.currentTime = 0;
+    }
+  </script>
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" id="myimg">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+    </div>
+    </ul>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <!--====================================================
+                        ABOUT
+    ======================================================-->
+
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <!-- <img src="img/logo-s.png" class="img-fluid mb-3" alt=""> -->
+        <!-- 젤 큰 목록 -->
+        <!-- <h1 class="han" style="font-size: 500%;">
+          <span class="han"> profile</span>
+        </h1> -->
+        <!-- 큰 설명 -->
+        <div class="han">
+          <div style="font-size: 200%;">
+            <span class="text-primary">목표지향적</span>
+            <span>개발자</span>
+            <span class="text-primary">이혜빈</span>
+            <span>입니다.</span><br>
+
+          </div>
+
+          <span class="text-primary">HTML, CSS, JavaScript</span>
+          <span> 등</span>
+          <span class="text-primary">프론트엔드</span>
+          <span>를 공부하고 있습니다.</span>
+
+          <a href="#"></a>
+        </div>
+        <!-- 하단 작은 설명 -->
+        <div style="margin-bottom: -25%;">
+          <!-- <img class="pngs" src="img/school.png"> -->
+          <p class="subhan" style="max-width: 500px;">▶ 이혜빈 / LeeHyebin</p><br>
+          <p class="subhan" style="max-width: 500px;">▶ 1999.01.15</p>
+          <br>
+          <p class="subhan" style="max-width: 500px;">▶ 순천대학교 컴퓨터공학과 졸업</p><br>
+          <p class="subhan" style="max-width: 500px;">▶ leebin9295@naver.com</p>
+          <br>
+          <p class="subhan" style="max-width: 500px;">▶ 자격증</p>
+          <p class="subhan" style="max-width: 500px;">- 컴퓨터활용능력 1급</p>
+
+          <br><br>
+          <div class="list-inline list-social-icons mb-0">
+            <a href="https://github.com/LEE-Hye">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--====================================================
+                        EXPERIENCE
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 " id="experience">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Experience</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <!-- 교육 -->
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5"
+            style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21); height: 90%;">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i><span class="han">ESG지원 사업 - AI/BigData연계
+                  취업역량 강화 프로그램
+                </span></h4>
+              <div class="subhan">
+                <p>스마트인재개발원</p>
+                <p>여보야 스마트사업부의 신입 웹 개발자 교육을 위한 웹개발 커리큘럼을 따르면서 자바스크립트에 대한</p>
+                <ul style="margin-left: -5%;">
+                  <li></li>
+                  <li>https://github.com/LEE-Hye/study</li>
+                </ul>
+              </div>
+            </div>
+            <div class="resume-date text-md-right" style="position: absolute; top: 90%; bottom: 5%; right: 2%;">
+              <span class="text-primary">2022.08 ~ 2022.11</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5"
+            style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21); height: 90%;">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-area-chart mr-3 text-primary"></i><span class="han">빅데이터 분석서비스
+                  개발자과정(NCS)</span></h4>
+              <div class="subhan">
+                <p>스마트인재개발원</p>
+                <p>K-디지털 빅데이터 분석 서비스 과정
+                  기본 융합 프로젝트, 핵심 역량 프로젝트, 최종 융합 프로젝트를 제작한 경험이 있습니다.
+                </p>
+                <ul style="margin-left: -5%;">
+                  <li>Eclipse 사용</li>
+                  <li>기능 구현 (Spring / Java / JSP)</li>
+                  <li>DB 설계 및 구축 (MySQL / Oracle)</li>
+                  <li>크롤링, 데이터 전처리 (Python)</li>
+                  <li>UI & UX 구현(HTML / CSS / JS)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="resume-date text-md-right" style="position: absolute; top: 90%; bottom: 5%; right: 2%;">
+              <span class="text-primary">2022.02 ~ 2022.08</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--====================================================
+                        PORTFOLIO
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Portfolio</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <!-- <div class="col-md-12">
+          <div class="port-head-cont">
+            <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="webPro">Web Project</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="gamePro">Game Project</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="ect">Ect</button>
+          </div>
+        </div> -->
+      </div>
+      <div class="row my-auto">
+
+        <!-- 2차 프로젝트 -->
+        <div class="col-sm-4 portfolio-item filter webPro">
+          <a class="portfolio-link" href="#third" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                <p class="subhan">챗봇과 감정분석을 활용한 임산부 감정 케어 서비스</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/project_img/second/file/2차배경.PNG" alt="">
+          </a>
+        </div>
+        <!-- 1차 프로젝트 -->
+        <div class="col-sm-4 portfolio-item filter webPro">
+          <a class="portfolio-link" href="#second" data-toggle="modal">
+            <div class="caption-port">
+              <div class=" caption-port-content">
+                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                <p class="subhan">꽃 구경 정보 제공 서비스</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/project_img/first/file/1차배경.png" alt="">
+          </a>
+        </div>
+    </section>
+
+    <!--====================================================
+                        SKILLS
+    ======================================================-->
+    <section class=" d-flex flex-column" id="skills">
+      <div class="p-lg-5 p-3 skill-cover">
+        <h3 class="text-center text-white">Coding Skills</h3>
+        <div class="row text-center my-auto ">
+
+
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <!-- <i class="fa fa-globe fa-5x"></i> -->
+              <img src="img/SkillLogo/htmlcssjs.png" alt="" style="width: 60px; height: 60px;">
+              <p></p>
+              <p style="font-weight: bold;">HTML / CSS / JavaScript</p>
+            </div>
+            <h2 class="skillDes"><span class="subhan"></span></h2>
+          </div>
+
+          <div class="col-md-3 col-sm-6" style="position: relative;">
+            <div class="skill-item">
+              <!-- <i class="fa fa-html5 fa-5x"></i> -->
+              <img src="img/SkillLogo/java .png" alt="" style="width: 60px; height: 60px;">
+              <p></p>
+              <p style="font-weight: bold;">Java</p>
+            </div>
+            <h2 class="skillDes"><span class="subhan">Spring기반 MVC패턴을 이용해<br>서블릿 및 JSP 구현과 연계되어 동작시킬 수
+                있음</span></h2>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <!-- <i class="fa fa-css3 fa-5x"></i> -->
+              <img src="img/SkillLogo/sql.png" alt="" style="width: 60px; height: 60px;">
+              <p></p>
+              <!-- <h2><span class="counter"> 95 </span><span>%</span></h2> -->
+              <p style="font-weight: bold;">SQL</p>
+            </div>
+            <h2 class="skillDes"><span class="subhan">MySQL/Oracle을 사용해 DB를 구축, 인덱스를 활용한 조회 가능</span></h2>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="skill-item">
+              <!-- <i class="fa fa-code fa-5x"></i> -->
+              <img src="img/SkillLogo/python.png" alt="" style="width: 60px; height: 60px;">
+              <p></p>
+              <p style="font-weight: bold;">Python</p>
+            </div>
+            <h2 class="skillDes"><span class="subhan">기본적인 라이브러리 사용, 크롤링 자동화를 할 수 있음</span></h2>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                           AWARDS
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Awards</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <div class="main-award" id="award-box" style="margin:auto; display:block;">
+
+          <div class="award">
+            <div class="award-icon"></div>
+            <div class="award-content">
+              <span class="date">2022.08.04</span>
+              <h5 class="han">모범상</h5>
+              <p class="subhan">
+                K-디지털 핵심실무인재양성사업 <br />
+                빅데이터 분석서비스 <br />
+                개발자과정 모범상
+              </p>
+              <a href="#smartGood" data-toggle="modal" class="subhan" style="text-decoration-line : none;">
+                <img src="img/awards_img/gallery.png" alt="이미지로고" style="width: 8%;"> click!
+              </a>
+            </div>
+          </div>
+
+          <div class="award">
+            <div class="award-icon"></div>
+            <div class="award-content">
+              <span class="date">2022.07.04</span>
+              <h5 class="han">Kaggle 우수상</h5>
+              <p class="subhan">
+                K-디지털 핵심실무인재양성사업
+                빅데이터 분석서비스
+                개발자과정 Kaggle 경진대회 우수상
+              </p>
+              <a href="#smartJSP" data-toggle="modal" class="subhan" style="text-decoration-line : none;">
+                <img src="img/awards_img/gallery.png" alt="이미지로고" style="width: 8%;"> click!
+              </a>
+            </div>
+          </div>
+
+          <div class="award">
+            <div class="award-icon"></div>
+            <div class="award-content">
+              <span class="date">2021.12.02</span>
+              <h5 class="han">컴퓨터공학과 캡스톤디자인 작품 발표회</h5>
+              <p class="subhan">
+                2021학년도 컴퓨터공학과 캡스톤디자인 작품 발표회 최우수상
+              </p>
+              <a href="#schoolAward01" data-toggle="modal" class="subhan" style="text-decoration-line : none;">
+                <img src="img/awards_img/gallery.png" alt="이미지로고" style="width: 8%;" href="#schoolAward01"> click!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====================================================
+                    AWARDS MODALS
+======================================================-->
+
+    <div class="portfolio-modal modal fade" id="smartGood" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Awards</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <img src="img/awards_img/스인재모범상.png" style=" margin:auto; display:block;" width="50%">
+                </div>
+                <button class="btn btn-general btn-white" type="button" data-dismiss="modal"
+                  style=" margin:auto; display:block;">
+                  <i class="fa fa-times"></i> Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="smartJSP" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Awards</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <img src="img/awards_img/캐글우수상.jpg" style=" margin:auto; display:block;" width="50%">
+                </div>
+                <button class="btn btn-general btn-white" type="button" data-dismiss="modal"
+                  style=" margin:auto; display:block;">
+                  <i class="fa fa-times"></i> Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="schoolAward01" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Awards</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <img src="img/awards_img/컴공졸작최우수상.png" style=" margin:auto; display:block;" width="50%">
+                </div>
+                <button class="btn btn-general btn-white" type="button" data-dismiss="modal"
+                  style=" margin:auto; display:block;">
+                  <i class="fa fa-times"></i> Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--====================================================
+                    PORTFOLIO MODALS
+======================================================-->
+    <!--  -->
+    <div class="portfolio-modal modal fade" id="ect01" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-1.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p></p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="portfolio-modal modal fade" id="ect02" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-2.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p></p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="portfolio-modal modal fade" id="ect03" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-3.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p></p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 인턴 내용 넣기 -->
+    <div class="portfolio-modal modal fade" id="intern" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-4.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>프로젝트 설명</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="portfolio-modal modal fade" id="irportfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-5.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p></p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2차 프로젝트 : 챗봇과 감정분석을 활용한 임산부 감정 케어 서비스 -->
+    <div class="portfolio-modal modal fade" id="third" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal" onclick="VideoReset(smartVideo03)">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                  <div class="col-md-12" style="background-color: #2196f3;">
+                    <h2 class="text-center"><span class="han"
+                        style="vertical-align: middle; color: white; font-weight: bold;">챗봇과 감정분석을 활용한 임산부 감정 케어 서비스
+                        제작을 통해 <br> </span></h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <video id="smartVideo03" src="img/project_img/second/file/동영상.mp3" controls style="width: 100%;">
+                      이 브라우저에서 지원하지 않는 영상입니다.
+                    </video>
+                    <br><br><br><br>
+                  </div>
+                  <div class="col-md-6" style="color : black">
+                    <div>
+                      <p class="han" style="font-weight: bold; ">나의 역할</p>
+                      <ol>
+                        <li class="subhan"><span style="color: #2196f3;">HTML과 CSS, JavaScript를 활용해 웹 프론트엔드 기능 구현</span>
+                        </li>
+                        <ul>
+                          <li class="subhan"></li>
+                        </ul>
+                        <li class="subhan"><span style="color: #2196f3;">Java와 Spring을 활용해 웹 백엔드 기능 구현</span></li>
+                        <ul>
+                          <li class="subhan"></li>
+                        </ul>
+                        <li class="subhan"><span style="color: #2196f3;">DB설계 및 구축</span></li>
+                        <ul>
+                          <li class="subhan">테이블 설계 및 구축</li>
+                        </ul>
+                      </ol>
+                    </div>
+                    <br>
+                    <p class="han" style="font-weight: bold;">코드 및 상세 정보</p>
+                    <li style="list-style: none;"><a
+                        href="https://github.com/LEE-Hye/MORANG">https://github.com/LEE-Hye/MORANG</a>
+                    </li>
+                    <br><br><br>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal"
+                      style=" width:100px; margin:auto; display:block;" onclick="VideoReset(smartVideo03)">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 1차 프로젝트 : 꽃 보러 갈래  -->
+    <div class="portfolio-modal modal fade" id="second" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal" onclick="VideoReset(smartVideo02)">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                  <div class="col-md-12" style="background-color: #2196f3;">
+                    <h2 class="text-center"><span class="han"
+                        style="vertical-align: middle; color: white; font-weight: bold;"> 꽃 구경 정보 제공 서비스 제작을 통해 <br>
+                      </span></h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6" style="color: black;">
+                    <video id="smartVideo02" src="img/project_img/first/file/1차 시연영상.mp4" controls style="width: 100%;">
+                      이 브라우저에서 지원하지 않는 영상입니다.
+                    </video>
+                    <br><br><br><br>
+                  </div>
+                  <div class="col-md-6" style="color : black">
+                    <div>
+                      <p class="han" style="font-weight: bold; ">나의 역할</p>
+                      <ol>
+                        <li class="subhan"><span style="color: #2196f3;">HTML과 CSS, JavaScript를 활용해 웹 프론트엔드 기능 구현</span>
+                        </li>
+                        <ul>
+                          <li class="subhan"></li>
+                        </ul>
+                        <li class="subhan"><span style="color: #2196f3;">Java와 JDBC를 활용해 웹 백엔드 기능 구현</span></li>
+                        <ul>
+                          <li class="subhan"></li>
+                        </ul>
+                      </ol>
+                    </div>
+                    <br>
+                    <p class="han" style="font-weight: bold;">코드 및 상세 정보</p>
+                    <li style="list-style: none;"><a
+                        href="https://github.com/LEE-Hye/Flower_Project">https://github.com/LEE-Hye/Flower_Project</a>
+                    </li>
+                    <br><br><br>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal"
+                      style=" width:100px; margin:auto; display:block;" onclick="VideoReset(smartVideo02)">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+
+  </div>
+  </div>
+  </div>
+
+  <!-- Global javascript -->
+  <script src="js/jquery/jquery.min.js"></script>
+  <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/counter/jquery.waypoints.min.js"></script>
+  <script src="js/counter/jquery.counterup.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $(".filter-b").click(function () {
+        var value = $(this).attr('data-filter');
+        if (value == "all") {
+          $('.filter').show('1000');
+        }
+        else {
+          $(".filter").not('.' + value).hide('3000');
+          $('.filter').filter('.' + value).show('3000');
+        }
+      });
+
+      if ($(".filter-b").removeClass("active")) {
+        $(this).removeClass("active");
+      }
+      $(this).addClass("active");
+    });
+
+    // SKILLS
+    $(function () {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+      });
+
+    });
+  </script>
+</body>
+
+</html>
